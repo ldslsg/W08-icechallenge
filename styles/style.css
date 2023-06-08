@@ -1,15 +1,34 @@
-.jem{
+
+.bannerImage{
+    overflow: hidden;
+}
+
+body{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
-    grid-column: 1/3
-    grid-row: 1/2
-
+    grid-template-columns: 400px 1fr;
+    max-width: 1200px;
 }
 
-.buje{
 
+.Jemok{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    padding: 50px;
+    justify-content: center;
+    gap: 20px;
 }
 
+.Jemok h1{
+    font-size: 75px;
+    font-family: sans-serif;
+}
+
+.Jemok p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
 .SUBSCRIBE{
     background-color: #d9c2a3;
     color: black;
@@ -20,10 +39,22 @@
     border-radius: 5px;
 }
 
-.Email{
-
+.Jemok input[type=text]{
+    height: 30px;
+    padding: 10px;
 }
 
-.Name{
+.Jemok button{
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    align-self: end;
+}
 
+.Jemok .optin{
+    align-self: start;
 }
